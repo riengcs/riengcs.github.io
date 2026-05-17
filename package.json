@@ -4,12 +4,12 @@
   "author": "Chau Sa Rieng",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template.git"
+    "url": "git+https://github.com/riengcs/riengcs.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/issues"
+    "url": "https://github.com/riengcs/riengcs.github.io/issues"
   },
-  "homepage": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template#readme",
+  "homepage": "https://github.com/riengcs/riengcs.github.io#readme",
   "version": "1.0.0",
   "private": true,
   "scripts": {
