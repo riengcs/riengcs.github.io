@@ -53,8 +53,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main',
+          editUrl: 'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main',
           docItemComponent: '@theme/ApiItem' // Derived from docusaurus-theme-openapi
         },
         blog: false,
@@ -230,16 +229,14 @@ const config = {
             version: '2.0.0', // Current version
             label: 'v2.0.0', // Current version label
             baseUrl: '/docs/petstore_versioned/swagger-petstore-yaml', // Leading slash is important
-            downloadUrl:
-              'https://raw.githubusercontent.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/main/api-swagger/petstore.yaml',
+            downloadUrl: 'https://raw.githubusercontent.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/main/api-swagger/petstore.yaml',
             versions: {
               '1.0.0': {
                 specPath: 'api-swagger/petstore-1.0.0.yaml',
                 outputDir: 'docs/petstore_versioned/1.0.0', // No trailing slash
                 label: 'v1.0.0',
                 baseUrl: '/docs/petstore_versioned/1.0.0/swagger-petstore-yaml', // Leading slash is important
-                downloadUrl:
-                  'https://raw.githubusercontent.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/main/api-swagger/petstore-1.0.0.yaml'
+                downloadUrl: 'https://raw.githubusercontent.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/main/api-swagger/petstore-1.0.0.yaml'
               }
             }
           }
@@ -289,8 +286,7 @@ const config = {
         showReadingTime: true,
         onUntruncatedBlogPosts: 'ignore',
         // Remove this to remove the "edit this page" links.
-        editUrl:
-          'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/',
+        editUrl: 'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/',
         remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}]]
       }
     ]
