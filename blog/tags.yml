@@ -1,19 +1,19 @@
-hola:
-  label: 'Hola'
-  permalink: '/hola'
-  description: 'Articles on the topic hola'
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
 
 hello:
-  label: 'Hello'
-  permalink: '/hello'
-  description: 'Articles on the topic hello'
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
 
 docusaurus:
-  label: 'Docusaurus'
-  permalink: '/docusaurus'
-  description: 'Articles on the topic docusaurus'
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
 
-facebook:
-  label: 'Facebook'
-  permalink: '/facebook'
-  description: 'Articles on the topic facebook'
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
