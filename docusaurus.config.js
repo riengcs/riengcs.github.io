@@ -163,7 +163,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: prismThemes.github,
+        theme: prismThemes.oneDark,// [github, oneDark]
         darkTheme: prismThemes.dracula,
         additionalLanguages: [
           'ruby',
