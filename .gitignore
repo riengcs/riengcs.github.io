@@ -1,13 +1,24 @@
 #########################################
+# Generated files
+#########################################
+.docusaurus
+.cache-loader
+
+#########################################
 # Node
 #########################################
 /node/
 node_tmp/
 node_modules/
-npm-debug.log.*
+npm-debug.log*
+npm-error.log*
+yarn-debug.log*
+yarn-error.log*
 /.awcache/*
 /.cache-loader/*
+/tmp/
 /dist/
+/build/
 
 #########################################
 # SASS
@@ -79,7 +90,6 @@ out/
 # Gradle
 #########################################
 .gradle/
-/build/
 /buildSrc/.gradle/
 /buildSrc/build/
 
