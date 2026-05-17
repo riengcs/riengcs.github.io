@@ -23,6 +23,7 @@ import petstoreVersionedSidebar from './docs/petstore_versioned/sidebar'
 import petstoreVersionSidebar from './docs/petstore_versioned/1.0.0/sidebar'
 
 const sidebars = {
+
   'tutorialSidebar': [
     'intro',
     {
@@ -47,7 +48,7 @@ const sidebars = {
     }
   ],
 
-  // single versioned sidebar
+  // Single versioned sidebar
   // 'openApiSidebar': [
   //   {
   //     type: 'category',
@@ -63,7 +64,7 @@ const sidebars = {
   //   }
   // ],
 
-  // multi versioned sidebar
+  // Multi versioned sidebar
   'petstore-2.0.0': [
     {
       type: 'html',
@@ -113,6 +114,7 @@ const sidebars = {
       items: petstoreVersionSidebar
     }
   ]
+
 }
 
 export default sidebars
