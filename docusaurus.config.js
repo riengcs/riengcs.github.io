@@ -38,10 +38,10 @@ const config = {
     locales: ['en']
   },
 
-  // Enable Docusaurs Faster: https://github.com/facebook/docusaurus/issues/10556
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     faster: true,
-    v4: true
+    v4: true // Improve compatibility with the upcoming Docusaurus v4
   },
 
   presets: [
