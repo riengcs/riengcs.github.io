@@ -14,6 +14,12 @@ const config = {
   tagline: 'Templates Docusaurus with Tailwind CSS and Shadcn/ui',
   favicon: 'img/favicon.ico',
 
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    faster: true,
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  },
+
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -39,12 +45,6 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
-  },
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    faster: true,
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   presets: [
