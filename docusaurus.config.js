@@ -291,7 +291,7 @@ const config = {
           '**/__tests__/**'
         ],
         postsPerPage: 6,
-        truncateMarker: /<!--\s*(truncate)\s*-->/,
+        truncateMarker: /\{\/\*\s*truncate\s*\*\/\}/,
         showReadingTime: true,
         onUntruncatedBlogPosts: 'ignore',
         // Remove this to remove the "edit this page" links.
