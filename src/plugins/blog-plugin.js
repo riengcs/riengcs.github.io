@@ -12,7 +12,7 @@ async function blogPluginExtended(...pluginArgs) {
      * Override the default `contentLoaded` hook to access blog posts data
      */
     contentLoaded: async function (params) {
-      const { content, actions } = params
+      const {content, actions} = params
 
       // Get the 6 latest blog posts
       const recentPostsLimit = 6
