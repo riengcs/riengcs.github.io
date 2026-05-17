@@ -17,7 +17,7 @@
 
 import petstoreVersions from './docs/petstore_versioned/versions.json'
 
-import { versionCrumb, versionSelector } from 'docusaurus-plugin-openapi-docs/lib/sidebars/utils'
+import {versionCrumb, versionSelector} from 'docusaurus-plugin-openapi-docs/lib/sidebars/utils'
 
 import petstoreVersionedSidebar from './docs/petstore_versioned/sidebar'
 import petstoreVersionSidebar from './docs/petstore_versioned/1.0.0/sidebar'
