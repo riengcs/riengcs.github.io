@@ -66,7 +66,7 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
@@ -172,24 +172,24 @@ const config = {
         ]
       },
       languageTabs: [
-        { highlight: 'python', language: 'python', logoClass: 'python' },
-        { highlight: 'bash', language: 'curl', logoClass: 'curl' },
-        { highlight: 'csharp', language: 'csharp', logoClass: 'csharp' },
-        { highlight: 'go', language: 'go', logoClass: 'go' },
-        { highlight: 'javascript', language: 'nodejs', logoClass: 'nodejs' },
-        { highlight: 'ruby', language: 'ruby', logoClass: 'ruby' },
-        { highlight: 'php', language: 'php', logoClass: 'php' },
-        { highlight: 'java', language: 'java', logoClass: 'java', variant: 'unirest' },
-        { highlight: 'powershell', language: 'powershell', logoClass: 'powershell' },
-        { highlight: 'dart', language: 'dart', logoClass: 'dart' },
-        { highlight: 'javascript', language: 'javascript', logoClass: 'javascript' },
-        { highlight: 'c', language: 'c', logoClass: 'c' },
-        { highlight: 'objective-c', language: 'objective-c', logoClass: 'objective-c' },
-        { highlight: 'ocaml', language: 'ocaml', logoClass: 'ocaml' },
-        { highlight: 'r', language: 'r', logoClass: 'r' },
-        { highlight: 'swift', language: 'swift', logoClass: 'swift' },
-        { highlight: 'kotlin', language: 'kotlin', logoClass: 'kotlin' },
-        { highlight: 'rust', language: 'rust', logoClass: 'rust' }
+        {highlight: 'python', language: 'python', logoClass: 'python'},
+        {highlight: 'bash', language: 'curl', logoClass: 'curl'},
+        {highlight: 'csharp', language: 'csharp', logoClass: 'csharp'},
+        {highlight: 'go', language: 'go', logoClass: 'go'},
+        {highlight: 'javascript', language: 'nodejs', logoClass: 'nodejs'},
+        {highlight: 'ruby', language: 'ruby', logoClass: 'ruby'},
+        {highlight: 'php', language: 'php', logoClass: 'php'},
+        {highlight: 'java', language: 'java', logoClass: 'java', variant: 'unirest'},
+        {highlight: 'powershell', language: 'powershell', logoClass: 'powershell'},
+        {highlight: 'dart', language: 'dart', logoClass: 'dart'},
+        {highlight: 'javascript', language: 'javascript', logoClass: 'javascript'},
+        {highlight: 'c', language: 'c', logoClass: 'c'},
+        {highlight: 'objective-c', language: 'objective-c', logoClass: 'objective-c'},
+        {highlight: 'ocaml', language: 'ocaml', logoClass: 'ocaml'},
+        {highlight: 'r', language: 'r', logoClass: 'r'},
+        {highlight: 'swift', language: 'swift', logoClass: 'swift'},
+        {highlight: 'kotlin', language: 'kotlin', logoClass: 'kotlin'},
+        {highlight: 'rust', language: 'rust', logoClass: 'rust'}
       ]
     }),
 
@@ -291,7 +291,7 @@ const config = {
         // Remove this to remove the "edit this page" links.
         editUrl:
           'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/',
-        remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]]
+        remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}]]
       }
     ]
   ]
