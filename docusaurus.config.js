@@ -40,7 +40,7 @@ const config = {
 
   // Enable Docusaurs Faster: https://github.com/facebook/docusaurus/issues/10556
   future: {
-    experimental_faster: true,
+    faster: true,
     v4: true
   },
 
