@@ -197,6 +197,7 @@ html[data-theme='dark'] {
   --ifm-menu-color-active: var(--ifm-color-primary);
   --ifm-border-color: #3d444d;
   --ifm-toc-border-color: var(--ifm-border-color);
+  --ifm-card-background-color: #151b23;
   /* Docsearch color */
   --table-of-contents-color: #e8e8e8;
   --docusaurus-highlighted-code-line-bg: #0000004d;
