@@ -20,10 +20,11 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'namnguyenthanhwork', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-tailwind-shadcn-template', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn'
@@ -35,13 +36,13 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en']
+    locales: ['en'],
   },
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     faster: true,
-    v4: true // Improve compatibility with the upcoming Docusaurus v4
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   presets: [
