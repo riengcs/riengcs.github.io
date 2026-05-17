@@ -40,7 +40,10 @@ const sidebars = {
     {
       type: 'category',
       label: 'Tutorial - Extras',
-      items: ['tutorial-extras/manage-docs-versions', 'tutorial-extras/translate-your-site']
+      items: [
+        'tutorial-extras/manage-docs-versions',
+        'tutorial-extras/translate-your-site'
+      ]
     }
   ],
 
