@@ -188,9 +188,10 @@ html[data-theme='dark'] {
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);/*Default*/
   --prism-background-color: #020408;
+  --ifm-footer-background-color:#010409;
+  --ifm-footer-link-color: #dadde1;
   --ifm-background-color: #0d1117;
   --ifm-background-surface-color: #010409;
-  --ifm-footer-link-color: #dadde1;
   --ifm-menu-color-background-active: #ffffff1a;
   --menu-link-active: rgba(255, 255, 255, 0.1);
   --ifm-menu-color-active: var(--ifm-color-primary);
