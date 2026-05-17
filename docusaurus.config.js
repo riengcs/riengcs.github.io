@@ -217,6 +217,7 @@ const config = {
     ],
     'docusaurus-theme-openapi-docs'
   ],
+
   plugins: [
     ['./src/plugins/webpack-alias.js', {}],
     ['./src/plugins/tailwind-config.js', {}],
