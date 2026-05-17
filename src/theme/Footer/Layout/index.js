@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function FooterLayout({ style, links, logo, copyright }) {
+export default function FooterLayout({style, links, logo, copyright}) {
   return (
     <footer className='border-t'>
       <div className='mx-auto max-w-7xl px-4 py-10'>
