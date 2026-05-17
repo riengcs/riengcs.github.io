@@ -4,6 +4,8 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
+import {themes as prismThemes} from "prism-react-renderer";
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -70,6 +72,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'Docusaurus Tailwind',
         logo: {
@@ -158,6 +163,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Docusaurus Tailwind Shadcn. Templates by <a href="https://github.com/namnguyenthanhwork" style="font-weight: bold;" target="_blank">Thành Nam Nguyễn</a>`
       },
       prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
         additionalLanguages: [
           'ruby',
           'csharp',
@@ -169,7 +176,7 @@ const config = {
           'dart',
           'objectivec',
           'r'
-        ]
+        ],
       },
       languageTabs: [
         {highlight: 'python', language: 'python', logoClass: 'python'},
